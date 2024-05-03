@@ -11,8 +11,8 @@ const projectsData = [
     description: "Created My Portfolio website using Reactjs,Nextjs and Tailwind CSS",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/Sagnik-2898",
+    previewUrl: "https://github.com/Sagnik-2898",
   },
   {
     id: 2,

@@ -124,9 +124,7 @@ const EmailSection = () => {
               Send Message
             </button>
 
-            <div className=" bg-orange-900 hover:bg-red-600 text-white font-medium  py-2.5 px-5 rounded-lg w-full ">
-            <a className="items-center" href="https://www.linkedin.com/in/sagnik-banerjee-738929219/" >!!!!!This Section is under Maintainance...Message me on My LinkedIn instead....</a>
-            </div>
+            
           </form>
           
         )}

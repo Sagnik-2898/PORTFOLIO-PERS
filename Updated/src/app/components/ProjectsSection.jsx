@@ -18,7 +18,7 @@ const projectsData = [
     id: 2,
     title: "React To do List-Web app",
     description: "Created A to do list using React,tailwind and Vite Config",
-    image: "/images/projects/2.png",
+    image: "/images/projects/21.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Sagnik-2898/React-To-Do",
     previewUrl: "https://react-to-do-vert.vercel.app/",

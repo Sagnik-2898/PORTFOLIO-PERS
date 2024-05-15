@@ -7,12 +7,12 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
+    title: "Next-JS Portfolio Website",
     description: "Created My Portfolio website using Reactjs,Nextjs and Tailwind CSS",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/Sagnik-2898",
-    previewUrl: "https://github.com/Sagnik-2898",
+    gitUrl: "https://github.com/Sagnik-2898/PORTFOLIO-PERS",
+    previewUrl: "/",
   },
   {
     id: 2,
@@ -20,8 +20,8 @@ const projectsData = [
     description: "Created A to do list using React,tailwind and Vite Config",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/Sagnik-2898/React-To-Do",
+    previewUrl: "https://react-to-do-vert.vercel.app/",
   },
   {
     id: 3,

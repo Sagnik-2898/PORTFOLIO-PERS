@@ -727,9 +727,6 @@ video {
 .h-\[250px\] {
   height: 250px;
 }
-.h-auto {
-  height: auto;
-}
 .h-full {
   height: 100%;
 }
@@ -753,9 +750,6 @@ video {
 }
 .w-full {
   width: 100%;
-}
-.max-w-full {
-  max-width: 100%;
 }
 .max-w-md {
   max-width: 28rem;
@@ -883,10 +877,6 @@ video {
 .bg-\[\#18191E\] {
   --tw-bg-opacity: 1;
   background-color: rgb(24 25 30 / var(--tw-bg-opacity));
-}
-.bg-orange-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(124 45 18 / var(--tw-bg-opacity));
 }
 .bg-primary-500 {
   --tw-bg-opacity: 1;
@@ -1111,6 +1101,8 @@ video {
 .duration-500 {
   transition-duration: 500ms;
 }
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+PL:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&display=swap');
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -1135,50 +1127,42 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
-
+.lekha{
+  font-family: "Playwrite US Trad", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 .hover\:border-white:hover {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
-
 .hover\:bg-primary-600:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(147 51 234 / var(--tw-bg-opacity));
 }
-
-.hover\:bg-red-600:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-slate-200:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
-
 .hover\:bg-slate-800:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(30 41 59 / var(--tw-bg-opacity));
 }
-
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
-
 .group:hover .group-hover\:flex {
   display: flex;
 }
-
 .group:hover .group-hover\:bg-opacity-80 {
   --tw-bg-opacity: 0.8;
 }
-
 .group\/link:hover .group-hover\/link\:text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
-
 @media (min-width: 640px) {
 
   .sm\:my-0 {
@@ -1232,7 +1216,6 @@ body {
     line-height: 1.75rem;
   }
 }
-
 @media (min-width: 768px) {
 
   .md\:my-12 {
@@ -1299,7 +1282,6 @@ body {
     line-height: 1;
   }
 }
-
 @media (min-width: 1024px) {
 
   .lg\:mt-0 {
@@ -1343,7 +1325,6 @@ body {
     line-height: 1.5;
   }
 }
-
 @media (min-width: 1280px) {
 
   .xl\:gap-16 {
@@ -1355,4 +1336,6 @@ body {
     padding-right: 4rem;
   }
 }
+
+
 

@@ -4,6 +4,7 @@ import GithubIcon from "../../../public/github-icon.svg";
 import LinkedinIcon from "../../../public/linkedin-icon.svg";
 import Link from "next/link";
 import Image from "next/image";
+import Lcicon from "../../../public/Lc-icon.svg";
 
 const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
@@ -62,6 +63,9 @@ const EmailSection = () => {
           <Link href="https://www.linkedin.com/in/sagnik-banerjee-738929219/">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
+          <Link href="https://leetcode.com/u/Sagnik03/">
+            <Image src={Lcicon} alt="Leetcode Icon" />
+          </Link>
         </div>
       </div>
       <div>
@@ -84,7 +88,7 @@ const EmailSection = () => {
                 id="email"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="jacob@google.com"
+                placeholder="hello@google.com"
               />
             </div>
             <div className="mb-6">

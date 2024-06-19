@@ -5,6 +5,7 @@ import NavLink from "./NavLink";
 import Image from "next/image";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
+import githubicon from "../../../public/github-icon.svg";
 
 const navLinks = [
   {
@@ -33,15 +34,8 @@ const Navbar = () => {
           className="text-2xl md:text-5xl text-white font-semibold"
           
         >
-          
-          {/* <Image
-              src="/public/images/Next.jpg"
-              alt="Next Logo"
-              className="mx-auto max-w-full h-auto"
-              width={60}
-              height={100}
-            /> */}
-          <p className="  items-center 
+            {/* <Image src={githubicon} alt="git"></Image> */}
+          <p className="  items-center lekha 
           ">Sagnik Banerjee</p>
         </Link>
         

@@ -37,10 +37,11 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>MICROSOFT AZURE FUNDAMENTALS</li>
+        <li>AWS Cloud Practiotioner Essentials</li>
         <li>Java Springboot</li>
         <li>Internshala Full Stack Development | Skill India</li>
         <li>Google Generative AI</li>
-        <li>IBM Quantum Spring Challenge -2023</li>
+        <li>IBM Quantum Spring Challenge -2023 - completed 5 labs</li>
       </ul>
     ),
   },

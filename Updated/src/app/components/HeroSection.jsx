@@ -38,7 +38,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Visit my Github repo to see some of my amazing Projects 
+            Visit my Github repo to see some of my amazing Projects <br/>
             Contact/Hire me to get some of my Services.
           </p>
           <div>

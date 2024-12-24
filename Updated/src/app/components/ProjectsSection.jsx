@@ -48,7 +48,7 @@ const projectsData = [
     image: "/images/projects/Staynest.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Sagnik-2898/StayNest",
-    previewUrl: "/",
+    previewUrl: "https://staynest-qxdi.onrender.com/listings",
   },
   // {
   //   id: 6,
